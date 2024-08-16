@@ -1,0 +1,10 @@
+models:
+  - name: athletes
+    columns:
+      - name: id
+        tests:
+          - unique
+          - not_null
+      - name: name
+        tests:
+          - not_null

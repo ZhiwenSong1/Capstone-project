@@ -1,0 +1,79 @@
+COMPETITIONTYPE,DATE,COMPETITION_NAME,COMPETITIONTYPEID,COMPETITION_ID,OLYMPICSSTATUS_DESCRIPTION,OLYMPICSSTATUS_COMPLETED,RESULTTYPE
+individual,2024-08-10 06:00:00.000 Z,Men's Marathon,1,122,Medal Official,true,Final Medal Event - Gold/Silver/Bronze awarded
+individual,2024-08-10 07:00:00.000 Z,Women's Individual Golf,1,937,Medal Official,true,Final Medal Event - Gold/Silver/Bronze awarded
+team,2024-08-10 08:00:00.000 Z,Women's Doubles,3,277,Medal Official,true,Bronze Medal Game - Bronze awarded
+team,2024-08-10 08:00:00.000 Z,Women's Handball,3,120,Medal Official,true,Bronze Medal Game - Bronze awarded
+team,2024-08-10 09:00:00.000 Z,Men's Basketball,3,223,Medal Official,true,Bronze Medal Game - Bronze awarded
+individual,2024-08-10 09:30:00.000 Z,Men's 102kg Weightlifting,1,1062,Medal Official,true,Final Medal Event - Gold/Silver/Bronze awarded
+individual,2024-08-10 10:28:00.000 Z,Women's Boulder & Lead,1,1079,Medal Official,true,Final Medal Event - Gold/Silver/Bronze awarded
+individual,2024-08-10 11:00:00.000 Z,Women's K1 500m,1,84,Medal Official,true,Final Medal Event - Gold/Silver/Bronze awarded
+team,2024-08-10 11:00:00.000 Z,Men's Volleyball,3,149,Medal Official,true,Gold Medal Game - Gold/Silver awarded
+individual,2024-08-10 11:20:00.000 Z,Men's K1 1000m,1,348,Medal Official,true,Final Medal Event - Gold/Silver/Bronze awarded
+group,2024-08-10 12:00:00.000 Z,Women's Group All-Around(Rhythm),2,287,Medal Official,true,Final Medal Event - Gold/Silver/Bronze awarded
+individual,2024-08-10 13:00:00.000 Z,Men's 10m Platform,1,162,Medal Official,true,Final Medal Event - Gold/Silver/Bronze awarded
+team,2024-08-10 13:00:00.000 Z,Women's Doubles,3,277,Medal Official,true,Gold Medal Game - Gold/Silver awarded
+team,2024-08-10 13:00:00.000 Z,Women's Handball,3,120,Medal Official,true,Gold Medal Game - Gold/Silver awarded
+individual,2024-08-10 14:00:00.000 Z,Women's 81kg Weightlifting,1,1065,Medal Official,true,Final Medal Event - Gold/Silver/Bronze awarded
+team,2024-08-10 15:00:00.000 Z,Women's Soccer,3,364,Medal Official,true,Gold Medal Game - Gold/Silver awarded
+individual,2024-08-10 17:10:00.000 Z,Men's Modern Pentathlon,1,225,Medal Official,true,Final Medal Event - Gold/Silver/Bronze awarded
+individual,2024-08-10 17:25:00.000 Z,Men's 800m,1,107,Medal Official,true,Final Medal Event - Gold/Silver/Bronze awarded
+individual,2024-08-10 17:25:00.000 Z,Men's 74kg Wrestling - Freestyle,1,940,Medal Official,true,Bronze Medal Game - Bronze awarded
+group,2024-08-10 17:30:00.000 Z,Duet Free Routine,2,1043,Medal Official,true,Final Medal Event - Gold/Silver/Bronze awarded
+individual,2024-08-10 17:45:00.000 Z,Men's 125kg Wrestling - Freestyle,1,943,Medal Official,true,Bronze Medal Game - Bronze awarded
+individual,2024-08-10 18:05:00.000 Z,Men's 125kg Wrestling - Freestyle,1,943,Medal Official,true,Gold Medal Game - Gold/Silver awarded
+individual,2024-08-10 18:19:00.000 Z,Men's Over 80kg,1,92,Medal Official,true,Bronze Medal Game - Bronze awarded
+individual,2024-08-10 18:25:00.000 Z,Women's 1500m,1,273,Medal Official,true,Final Medal Event - Gold/Silver/Bronze awarded
+individual,2024-08-10 18:35:00.000 Z,Women's 62kg Wrestling - Freestyle,1,976,Medal Official,true,Gold Medal Game - Gold/Silver awarded
+team,2024-08-10 19:30:00.000 Z,Men's Basketball,3,223,Medal Official,true,Gold Medal Game - Gold/Silver awarded
+team,2024-08-11 11:00:00.000 Z,Women's Volleyball,3,100,Medal Official,true,Gold Medal Game - Gold/Silver awarded
+individual,2024-08-11 11:00:00.000 Z,Men's 97kg Wrestling - Freestyle,1,942,Medal Official,true,Gold Medal Game - Gold/Silver awarded
+individual,2024-08-11 11:27:00.000 Z,Women's 76kg Wrestling - Freestyle,1,978,Medal Official,true,Bronze Medal Game - Bronze awarded
+individual,2024-08-11 11:56:00.000 Z,Women's Omnium Cycling - Track,1,796,Medal Official,true,Final Medal Event - Gold/Silver/Bronze awarded
+team,2024-08-10 08:35:00.000 Z,Women's Water Polo,3,323,Medal Official,true,Bronze Medal Game - Bronze awarded
+team,2024-08-10 15:15:00.000 Z,Women's Volleyball,3,100,Medal Official,true,Bronze Medal Game - Bronze awarded
+individual,2024-08-10 17:15:00.000 Z,Men's 74kg Wrestling - Freestyle,1,940,Medal Official,true,Bronze Medal Game - Bronze awarded
+individual,2024-08-10 17:35:00.000 Z,Men's 74kg Wrestling - Freestyle,1,940,Medal Official,true,Gold Medal Game - Gold/Silver awarded
+individual,2024-08-10 17:55:00.000 Z,Men's 125kg Wrestling - Freestyle,1,943,Medal Official,true,Bronze Medal Game - Bronze awarded
+individual,2024-08-10 18:30:00.000 Z,Men's +102kg Weightlifting,1,1063,Medal Official,true,Final Medal Event - Gold/Silver/Bronze awarded
+individual,2024-08-11 10:00:00.000 Z,Men's 65kg Wrestling - Freestyle,1,939,Medal Official,true,Bronze Medal Game - Bronze awarded
+individual,2024-08-10 19:39:00.000 Z,Women's Over 67kg,1,344,Medal Official,true,Gold Medal Game - Gold/Silver awarded
+individual,2024-08-11 10:40:00.000 Z,Women's Modern Pentathlon,1,347,Medal Official,true,Final Medal Event - Gold/Silver/Bronze awarded
+individual,2024-08-10 11:50:00.000 Z,Women's C1 200m Canoe Sprint,1,1005,Medal Official,true,Final Medal Event - Gold/Silver/Bronze awarded
+team,2024-08-10 13:35:00.000 Z,Women's Water Polo,3,323,Medal Official,true,Gold Medal Game - Gold/Silver awarded
+individual,2024-08-10 17:40:00.000 Z,Women's Javelin Throw,1,321,Medal Official,true,Final Medal Event - Gold/Silver/Bronze awarded
+individual,2024-08-10 17:45:00.000 Z,Women's 100m Hurdles,1,317,Medal Official,true,Final Medal Event - Gold/Silver/Bronze awarded
+individual,2024-08-10 18:25:00.000 Z,Women's 62kg Wrestling - Freestyle,1,976,Medal Official,true,Bronze Medal Game - Bronze awarded
+group,2024-08-10 19:00:00.000 Z,Men's Beach Volleyball,2,130,Medal Official,true,Bronze Medal Game - Bronze awarded
+group,2024-08-10 20:30:00.000 Z,Men's Beach Volleyball,2,130,Medal Official,true,Gold Medal Game - Gold/Silver awarded
+individual,2024-08-10 20:34:00.000 Z,Women's 75kg Boxing,1,1057,Medal Official,true,Gold Medal Game - Gold/Silver awarded
+individual,2024-08-11 06:00:00.000 Z,Women's Marathon,1,209,Medal Official,true,Final Medal Event - Gold/Silver/Bronze awarded
+individual,2024-08-11 09:30:00.000 Z,Women's +81kg Weightlifting,1,1066,Medal Official,true,Final Medal Event - Gold/Silver/Bronze awarded
+team,2024-08-11 09:30:00.000 Z,Women's Basketball,3,345,Medal Official,true,Bronze Medal Game - Bronze awarded
+individual,2024-08-11 10:07:00.000 Z,Men's 65kg Wrestling - Freestyle,1,939,Medal Official,true,Bronze Medal Game - Bronze awarded
+individual,2024-08-11 10:35:00.000 Z,Men's 97kg Wrestling - Freestyle,1,942,Medal Official,true,Bronze Medal Game - Bronze awarded
+individual,2024-08-11 11:15:00.000 Z,Women's Sprint,1,189,Medal Official,true,Bronze Medal Game - Bronze awarded
+group,2024-08-10 15:59:00.000 Z,Men's Madison,2,289,Medal Official,true,Final Medal Event - Gold/Silver/Bronze awarded
+individual,2024-08-10 18:00:00.000 Z,Men's 5000m,1,336,Medal Official,true,Final Medal Event - Gold/Silver/Bronze awarded
+individual,2024-08-10 18:51:00.000 Z,Men's Over 80kg,1,92,Medal Official,true,Bronze Medal Game - Bronze awarded
+group,2024-08-10 19:00:00.000 Z,Men's 4x400m Relay,2,179,Medal Official,true,Final Medal Event - Gold/Silver/Bronze awarded
+individual,2024-08-10 19:07:00.000 Z,Women's Over 67kg,1,344,Medal Official,true,Bronze Medal Game - Bronze awarded
+individual,2024-08-10 19:23:00.000 Z,Men's Over 80kg,1,92,Medal Official,true,Gold Medal Game - Gold/Silver awarded
+individual,2024-08-10 19:30:00.000 Z,Women's 57kg Boxing,1,1054,Medal Official,true,Gold Medal Game - Gold/Silver awarded
+team,2024-08-11 07:00:00.000 Z,Men's Handball,3,213,Medal Official,true,Bronze Medal Game - Bronze awarded
+individual,2024-08-11 10:25:00.000 Z,Men's 65kg Wrestling - Freestyle,1,939,Medal Official,true,Gold Medal Game - Gold/Silver awarded
+individual,2024-08-11 10:42:00.000 Z,Men's 97kg Wrestling - Freestyle,1,942,Medal Official,true,Bronze Medal Game - Bronze awarded
+team,2024-08-11 11:30:00.000 Z,Men's Handball,3,213,Medal Official,true,Gold Medal Game - Gold/Silver awarded
+individual,2024-08-11 11:45:00.000 Z,Women's 76kg Wrestling - Freestyle,1,978,Medal Official,true,Gold Medal Game - Gold/Silver awarded
+team,2024-08-10 19:23:00.000 Z,Men's Breaking,3,1040,Medal Official,true,Gold Medal Game - Gold/Silver awarded
+individual,2024-08-10 18:15:00.000 Z,Women's 62kg Wrestling - Freestyle,1,976,Medal Official,true,Bronze Medal Game - Bronze awarded
+team,2024-08-10 19:14:00.000 Z,Men's Breaking,3,1040,Medal Official,true,Bronze Medal Game - Bronze awarded
+individual,2024-08-10 17:10:00.000 Z,Men's High Jump,1,118,Medal Official,true,Final Medal Event - Gold/Silver/Bronze awarded
+individual,2024-08-10 18:35:00.000 Z,Women's Over 67kg,1,344,Medal Official,true,Bronze Medal Game - Bronze awarded
+group,2024-08-10 19:22:00.000 Z,Women's 4x400m Relay,2,380,Medal Official,true,Final Medal Event - Gold/Silver/Bronze awarded
+team,2024-08-11 08:35:00.000 Z,Men's Water Polo,3,242,Medal Official,true,Bronze Medal Game - Bronze awarded
+individual,2024-08-11 11:32:00.000 Z,Men's Keirin,1,164,Medal Official,true,Final Medal Event - Gold/Silver/Bronze awarded
+individual,2024-08-11 11:44:00.000 Z,Women's Sprint,1,189,Medal Official,true,Gold Medal Game - Gold/Silver awarded
+individual,2024-08-10 19:47:00.000 Z,Men's 57kg Boxing,1,1047,Medal Official,true,Gold Medal Game - Gold/Silver awarded
+individual,2024-08-10 20:51:00.000 Z,Men's +92kg Boxing,1,1045,Medal Official,true,Gold Medal Game - Gold/Silver awarded
+individual,2024-08-11 11:20:00.000 Z,Women's 76kg Wrestling - Freestyle,1,978,Medal Official,true,Bronze Medal Game - Bronze awarded
+team,2024-08-11 12:00:00.000 Z,Men's Water Polo,3,242,Medal Official,true,Gold Medal Game - Gold/Silver awarded
