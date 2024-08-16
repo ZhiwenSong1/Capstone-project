@@ -1,0 +1,15 @@
+models:
+  - name: medal_by_countryid
+    columns:
+      - name: country_id
+        tests:
+          - not_null
+      - name: country_name
+        tests:
+          - not_null
+      - name: country_abbreviation
+        tests:
+          - not_null
+      - name: year
+        tests:
+          - not_null

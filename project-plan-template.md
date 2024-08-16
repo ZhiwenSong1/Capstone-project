@@ -2,19 +2,13 @@
 
 ## Objective
 
-A short statement about the objective of your project.
+The objective of this project is to retrieve past and current Olympic information including results, medals, athletes,etc. The data stores in data warehouses (raw, staging, marts) and data models are built in production environment ready to use for analytics. 
 
-Example:
 
-> The objective of our project is to provide analytical datasets from our Orders API and Customers database.
 
 ## Consumers
 
-What users would find your data useful? How do they want to access the data?
-
-Example:
-
-> The users of our datasets are Data Analysts and the Production team in the business.
+The users of our datasets are Data Analysts in different countries and Olympians all around world.
 
 ## Questions
 
@@ -22,16 +16,14 @@ What questions are you trying to answer with your data? How will your data suppo
 
 Example:
 
-> - How many orders are there for each customer?
-> - What countries and regions have the most orders?
-> - What customers have their orders delayed?
-> - How many delayed orders are there for each country and region?
-> - How many orders do we have for each day?
-> - How many delayed orders do we have for each day?
+> - Which countires won most medals in passing five years?
+> - Followed with the questions above, which types of sports do these countries dominate?
+> - In recent five years, how many athletes break the world records? Who are they?
+
 
 ## Source datasets
 
-What datasets are you sourcing from? How frequently are the source datasets updating?
+The data is from Olympic sports API (olympic-sports-api.p.rapidapi.com). It includes Live Olympic results, Athlete info, Past Olympic records, Medal counts, Event schedules, etc.
 
 Example:
 

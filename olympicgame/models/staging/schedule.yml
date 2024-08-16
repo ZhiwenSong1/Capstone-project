@@ -1,0 +1,12 @@
+models:
+  - name: schedule
+    columns:
+      - name: date
+        tests:
+          - not_null
+      - name: competition_id
+        tests:
+          - not_null
+      - name: competition_name
+        tests:
+          - not_null
