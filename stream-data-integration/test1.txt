@@ -1,0 +1,20 @@
+[{
+    "COMPETITIONTYPE": "individual",
+    "DATE": "2024-08-10 06:00:00.000 Z",
+    "COMPETITION_NAME": "Men's Marathon",
+    "COMPETITIONTYPEID": 1,
+    "COMPETITION_ID": 122,
+    "OLYMPICSSTATUS_DESCRIPTION": "Medal Official",
+    "OLYMPICSSTATUS_COMPLETED": "TRUE",
+    "RESULTTYPE": "Final Medal Event - Gold/Silver/Bronze awarded"
+  },
+  {
+    "COMPETITIONTYPE": "individual",
+    "DATE": "2024-08-10 06:00:00.000 Z",
+    "COMPETITION_NAME": "Men's Marathon",
+    "COMPETITIONTYPEID": 1,
+    "COMPETITION_ID": 122,
+    "OLYMPICSSTATUS_DESCRIPTION": "Medal Official",
+    "OLYMPICSSTATUS_COMPLETED": "TRUE",
+    "RESULTTYPE": "Final Medal Event - Gold/Silver/Bronze awarded"
+  }]
