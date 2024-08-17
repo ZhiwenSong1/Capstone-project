@@ -1,0 +1,6 @@
+# Required connection configs for Kafka producer, consumer, and admin
+bootstrap.servers=your_cluster_bootstrap_server
+security.protocol=SASL_SSL
+sasl.mechanisms=PLAIN
+sasl.username=your_key
+sasl.password=your_secret
