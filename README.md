@@ -2,6 +2,7 @@
 
 
 Using airbyte
+
 1. Start Docker Desktop
 2. Navigate to the airbyte directory and execute the bash script to start airbyte
     cd integration/airbyte
@@ -26,6 +27,7 @@ Using airbyte
 
 
 Using snowflake
+
 1. Log in to the snowflake account
 2. Go to projects -> worksheets -> + worksheet
 3. On the top right, select the role ACCOUNTADMIN.
@@ -34,14 +36,16 @@ Using snowflake
 
 
 Transformation using dbt
+
 1. cd to transformation/olympicgame
-2. Execute dbt run
-    ![dbt_log](images/dbt_image/dbt run.png)
+2. Execute `dbt run`
+    ![dbt_log](<images/dbt_image/dbt run.png>)
 3. Execute the command dbt docs generate to create the dbt documentations and dbt docs serve to create and view the lineage graph
     ![dbt_lineage_graph](images/dbt_image/dbt_lineage_graph.png)
 4. Execute the command dbt build to run and test dbt models
 
 Orchestration using dagster
+
 part1 running etl process using dagster on local machine
 1. cd to orchestration/dagster2
 2. Start airbyte by using command ./run-ab-platform.sh 
