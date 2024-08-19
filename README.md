@@ -35,11 +35,35 @@ It includes Live Olympic results, athlete info, past Olympic records, medals, ev
 
 How are we going to get data flowing from source to serving? What components and services will we combine to implement the solution? How do we automate the entire running of the solution?
 
-- data extraction patterns
-- data loading patterns
-- data transformation patterns
+- data extraction patterns: Source: Full Refresh | Destination: Overwrite/Append
+- data loading patterns: Full Refresh/ Incremental
+- data transformation patterns: Data type casting/group by/window function/aggregation function/join/renaming/sorting/flattening
 
-![solution-architecture-diagram](images/solution-architecture-diagram.png)
+![solution-architecture-diagram](<images/Solution Diagram.png>)
+
+## Getting started
+
+1. Create a new snowflake account, conflunent account, aws root account, dagster cloud account, preset, etc
+
+2. Install docker desktop, airbyte, dbt, dagster
+
+3. There are a few parts which require intall different packages/library
+    `pip install -r requirements.txt`
+4. Clone the airbyte repo locally from `https://github.com/airbytehq/airbyte.git`
+
+5. Execute `dbt init' to create a fresh new dbt project
+
+6. Scaffold new dagster project 
+```
+dagster project scaffold --name dagster2
+```
+Then install other dependencies required for the dagster project
+
+```
+cd dagster2
+pip install -e ".[dev]"
+```
+
 
 ## Using airbyte
 
@@ -95,7 +119,7 @@ How are we going to get data flowing from source to serving? What components and
     ![dbt_lineage_graph](images/dbt_image/dbt_lineage_graph.png)
 4. Execute the command `dbt build` to run and test dbt models
 
-Orchestration using dagster
+## Orchestration using dagster
 
 part1 running etl process using dagster on local machine
 1. cd to orchestration/dagster2
@@ -146,6 +170,13 @@ part1 running etl process using dagster on local machine
 10. Configure the S3 Sink by using aws key /secret key /bucket name, etc and run it. 
 
     ![S3](<images/kafka_stream/S3Sink consumer.png>)
+
+## Using preset
+1. Create a preset account
+2. Create a workspace and connect to snowflake database. In order to read data from snowflake, a network policy is required to generate to allow the ip address.
+![connect_snowflake](images/preset/connect_snowflake.png)
+3. Create different charts and add to dashboard
+![dashboard](images/preset/dashboard.png)
     
 
 
