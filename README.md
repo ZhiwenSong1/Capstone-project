@@ -12,10 +12,6 @@ The primary users of these datasets will be data analysts in different countries
 
 ## Questions
 
-What questions are you trying to answer with your data? How will your data support your users?
-
-Example:
-
 > - The top five countries with the most medals in the 2024 Olympics
 > - Followed with the question above, the types of sports where the top Olympic countries traditionally excel
 > - Identify the geographic locations for these Olympic countries
@@ -26,31 +22,26 @@ Example:
 The data source is from Olympic sports API (olympic-sports-api.p.rapidapi.com). 
 It includes Live Olympic results, athlete info, past Olympic records, medals, events, schedules, etc.
 
-| Source name       | Source type | Source documentation      |
-| athletes          |   API       | Live Olympic Athlete info |
-| countryid         |   API       | Live Olympic country info |
-| medal by countryid|   API       | Live Olympic Medal info   |
-| medal by athletes |   API       | Live Olympic Medal info   |
-| results           |   API       | Live Olympic results info |
-| schedule          |   API       | Live Olympic schedules    |
+| Source name       | Source type | Source documentation  
+| athletes          |   API       | Live Olympic Athlete info 
+| countryid         |   API       | Live Olympic country info 
+| medal by countryid|   API       | Live Olympic Medal info   
+| medal by athletes |   API       | Live Olympic Medal info   
+| results           |   API       | Live Olympic results info 
+| schedule          |   API       | Live Olympic schedules    
 
 
 ## Solution architecture
 
 How are we going to get data flowing from source to serving? What components and services will we combine to implement the solution? How do we automate the entire running of the solution?
 
-- What data extraction patterns are you going to be using?
-- What data loading patterns are you going to be using?
-- What data transformation patterns are you going to be performing?
+- data extraction patterns
+- data loading patterns
+- data transformation patterns
 
-We recommend using a diagramming tool like [draw.io](https://draw.io/) to create your architecture diagram.
+![solution-architecture-diagram](images/solution-architecture-diagram.png)
 
-Here is a sample solution architecture diagram:
-
-![images/sample-solution-architecture-diagram.png](images/sample-solution-architecture-diagram.png)
-
-
-Using airbyte
+## Using airbyte
 
 1. Start Docker Desktop
 2. Navigate to the airbyte directory and execute the bash script to start airbyte
@@ -81,7 +72,7 @@ Using airbyte
     ![airbyte_running_on_EC2](images/airbyte_ec2_image/airbyte_running_in_ecs.png)
 
 
-Using snowflake
+## Using snowflake
 
 1. Log in to the snowflake account
 2. Go to projects -> worksheets -> + worksheet
@@ -93,7 +84,7 @@ Using snowflake
     ```
 
 
-Transformation using dbt
+## Transformation using dbt
 
 1. cd to transformation/olympicgame
 2. Execute `dbt run`
@@ -126,7 +117,7 @@ part1 running etl process using dagster on local machine
     ![deployment2](images/dagster_image/dagster_detail2.png)
     ![deployment3](images/dagster_image/dagster_detail3.png)
 
-Using Confluent
+## Using Confluent
 
 1. Log ino confluent
 2. Create a new Environment and click on `+ Add Cluster`
