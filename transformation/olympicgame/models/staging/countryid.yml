@@ -1,0 +1,10 @@
+models:
+  - name: countryid
+    columns:
+      - name: country_id
+        tests:
+          - unique
+          - not_null
+      - name: country_name
+        tests:
+          - not_null

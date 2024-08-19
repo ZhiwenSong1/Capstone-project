@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: raw
+    database: olympic
+    schema: raw
+    tables:
+      - name: results
+      - name: countryid
+      - name: medal_by_countryid
+      - name: schedule
+      - name: athletes
+      - name: medal_by_athletes
+      - name: medal
+
+
+

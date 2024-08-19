@@ -1,0 +1,17 @@
+olympicgame:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: aw65154.ca-central-1.aws
+
+      # User/password auth
+      user: zsong2607
+      password: Szw19831205$
+
+      role: accountadmin
+      database: olympic
+      warehouse: xs_wh
+      schema: raw
+      threads: 12
+      client_session_keep_alive: False

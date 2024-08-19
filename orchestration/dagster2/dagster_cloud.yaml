@@ -1,0 +1,4 @@
+locations:
+- code_source:
+    package_name: dagster2
+  location_name: dagster2
