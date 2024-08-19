@@ -1,11 +1,22 @@
 select distinct
- r.year,
- r.countryid as country_id,
- r.countryname,
- f.value:abbreviation::string as country_abbreviation,
- f.value:medalStandings:bronzeMedalCount as bronzeMedalCount,
- f.value:medalStandings:goldMedalCount as goldMedalCount,
- f.value:medalStandings:silverMedalCount as silverMedalCount,
- f.value:medalStandings:totalMedals as totalMedals
-from {{ source ('raw', 'medal_by_countryid') }} r,
-lateral flatten(input =>r.leaders,path => 'total') f
+year,
+country_id,
+countryname,
+country_abbreviation,
+bronzeMedal_Count,
+goldMedal_Count,
+silverMedal_Count,
+total_Medals,
+case when bronzeMedal_Count is null then 0
+     else bronzeMedal_Count
+     end as bronzeMedalCount,
+case when goldMedal_Count is null then 0
+     else goldMedal_Count
+     end as goldMedalCount,
+case when silverMedal_Count is null then 0
+     else silverMedal_Count
+     end as silverMedalCount,
+case when total_Medals is null then 0
+     else total_Medals
+     end as totalmedals
+from {{ ref ('medal_by_countryid_flatten') }} 
